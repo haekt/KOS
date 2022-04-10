@@ -53,8 +53,8 @@ PROTECTEDMODE:
 
 
 PRINTMESSAGE:
-	push edp
-	mov dbp, esp
+	push ebp
+	mov ebp, esp
 	push esi
 	push edi
 	push eax
